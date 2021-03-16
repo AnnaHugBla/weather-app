@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+.current-time {
+  text-align: right;
+  font-family: "Varela Round", sans-serif;
+  padding-right: 25px;
+}
+h4,
+input,
+.weekdays,
+.temperatures {
+  font-family: "Varela Round", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 45px;
+}
+#weather-description {
+  text-transform: capitalize;
+}
+h4 {
+  padding-left: 25px;
+}
+input {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+#weather-aspects {
+  padding-right: 25px;
+}
+.currentTemperature {
+  font-size: 45px;
+}
+.degrees {
+  font-size: 14px;
+  position: relative;
+  top: -20px;
+}
+form {
+  display: inline;
+}
+
+input[type="submit"] {
+  color: black;
+  background-color: #39c3db;
+  border: -2px;
+  border-color: #27bcd6;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin: 2px 5px;
+  padding: 5px 25px;
+  transition: 150ms all ease-in-out;
+}
+input[type="submit"]:hover {
+  background-color: #83d2e0;
+  color: #ffffff;
+}
+
+.enter-city {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px;
+}
+.current-time {
+  text-align: right;
+  margin-top: 0;
+}
+#forecast-columns {
+  text-align: center;
+}
+.icon {
+  text-align: center;
+  font-size: 40px;
+}
+.weekdays {
+  font-size: 18px;
+}
+.temperatures {
+  font-size: 12px;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px;
+  max-width: 700px;
+  border-radius: 10px;
+  background-image: url("../images/sunniert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: rgba(255, 255, 255, 0.3);
+}
